@@ -1,0 +1,6 @@
+framework module Pods_PNTMUnsplash {
+  umbrella header "Pods-PNTMUnsplash-umbrella.h"
+
+  export *
+  module * { export * }
+}
