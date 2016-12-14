@@ -13,7 +13,7 @@ import RxSwift
 
 
 
-struct PNTMUnsplashProvider {
+public struct PNTMUnsplash {
     
     static let baseUrl = "https://api.unsplash.com"
     static let clientId = "PLEASE ADD YOUR UNSPLASH API KEY HERE"
