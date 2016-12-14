@@ -11,7 +11,7 @@
 		1702831A1DFEFDD30044C114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170283161DFEFDD30044C114 /* ViewController.swift */; };
 		170283211DFEFE0D0044C114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170283141DFEFDD30044C114 /* Assets.xcassets */; };
 		176022231DFF0531008EAB85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176022221DFF0531008EAB85 /* Default-568h@2x.png */; };
-		17C67AE41DFEFF9200D86E6B /* PNTMUnsplashProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C67AE31DFEFF9200D86E6B /* PNTMUnsplashProvider.swift */; };
+		17C67AE41DFEFF9200D86E6B /* PNTMUnsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C67AE31DFEFF9200D86E6B /* PNTMUnsplash.swift */; };
 		17C67AEF1DFEFFD600D86E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C67AEB1DFEFFD600D86E6B /* LaunchScreen.storyboard */; };
 		17C67AF01DFEFFD600D86E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C67AED1DFEFFD600D86E6B /* Main.storyboard */; };
 		17F9F0141DFEF06900FD1C9A /* PNTMUnsplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F9F0131DFEF06900FD1C9A /* PNTMUnsplashTests.swift */; };
@@ -35,7 +35,7 @@
 		170283151DFEFDD30044C114 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = SOURCE_ROOT; };
 		170283161DFEFDD30044C114 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		176022221DFF0531008EAB85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Example/Default-568h@2x.png"; sourceTree = "<group>"; };
-		17C67AE31DFEFF9200D86E6B /* PNTMUnsplashProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PNTMUnsplashProvider.swift; path = PNTMUnsplash/PNTMUnsplashProvider.swift; sourceTree = "<group>"; };
+		17C67AE31DFEFF9200D86E6B /* PNTMUnsplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PNTMUnsplash.swift; path = PNTMUnsplash/PNTMUnsplash.swift; sourceTree = "<group>"; };
 		17C67AEC1DFEFFD600D86E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17C67AEE1DFEFFD600D86E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17F9EFFB1DFEF06800FD1C9A /* PNTMUnsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNTMUnsplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +73,7 @@
 		170283121DFEFD550044C114 /* PNTMUnsplash */ = {
 			isa = PBXGroup;
 			children = (
-				17C67AE31DFEFF9200D86E6B /* PNTMUnsplashProvider.swift */,
+				17C67AE31DFEFF9200D86E6B /* PNTMUnsplash.swift */,
 			);
 			name = PNTMUnsplash;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17C67AE41DFEFF9200D86E6B /* PNTMUnsplashProvider.swift in Sources */,
+				17C67AE41DFEFF9200D86E6B /* PNTMUnsplash.swift in Sources */,
 				1702831A1DFEFDD30044C114 /* ViewController.swift in Sources */,
 				170283171DFEFDD30044C114 /* AppDelegate.swift in Sources */,
 			);
