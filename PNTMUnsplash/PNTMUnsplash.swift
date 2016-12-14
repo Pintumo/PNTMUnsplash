@@ -18,7 +18,7 @@ public struct PNTMUnsplash {
     static let baseUrl = "https://api.unsplash.com"
     static let clientId = "PLEASE ADD YOUR UNSPLASH API KEY HERE"
     
-    static func photos() -> Observable<[String:Any]> {
+    public static func photos() -> Observable<[String:Any]> {
         
         return Observable<[String:Any]>.create() { observer in
             let request = Alamofire.request("\(baseUrl)/photos?client_id=\(clientId)")
