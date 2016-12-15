@@ -18,7 +18,7 @@ public struct PNTMUnsplash {
     static let baseUrl = "https://api.unsplash.com"
     static let clientId = "PLEASE ADD YOUR UNSPLASH API KEY HERE"
     
-    public static func photos() -> Observable<[String:Any]> {
+    public static func photos() -> Observable<PNTMUnsplashPhoto> {
         
         return Observable<[String:Any]>.create() { observer in
             let request = Alamofire.request("\(baseUrl)/photos?client_id=\(clientId)")
@@ -46,11 +46,11 @@ public struct PNTMUnsplash {
         }.map { json in
             guard let id = json["id"] as! String?,
                 let urls = json["urls"] as! [String:Any]?,
-                let photo = urls["regular"] as! String? else {
+                let url = urls["regular"] as! String? else {
                 throw RxError.unknown
             }
             
-            return [ "id" : id, "photo" : photo]
+            return PNTMUnsplashPhoto(with: id, url: url)
         }
     }
 }
